@@ -417,6 +417,6 @@ This can speed up resolving your code by 10 - 15x. A significant speed improveme
 You can enable this on a per application basis by setting the `remembering` parameter to `True` on your container class. This can be found in your `wsgi.py` file:
 
 ```python
-container = App(remembering = True)
+container = App(remember = True)
 ```
 
